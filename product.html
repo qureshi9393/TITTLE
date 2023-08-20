@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+               <a href="product.html" class="logo-red">BOOK PARADISE</a> 
+            </div>
+            <nav>
+                <ul>
+                 <li><a href="home.html">HOME</a></li>
+                 <li><a href="product.html">PRODUCT</a></li>
+                 <li><a href="about us.html">ABOUT US</a></li>
+                 <li><a href="contact.html">CONTACT</a></li>
+        </div>
+        <div class="featured">
+            <div class="small-container">
+               <div class="row row-2">
+                 <h1>ALL PRODUCT</h1>
+                 <input id="search" onkeyup="filter()" type="text" placeholder="search here">
+                 <button onclick="sortlist0()" class="sortbtn">sort by price</button>
+               </div>
+             <h2 class="tittle">PRODUCTS FEATURED</h2>
+             <div class="row" id="product-list">
+             <div class="col-4" data-target="#moda1l">
+             <img src="pro1.jpeg">
+             <h4 class="product-name">HTML</h4>
+             <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-0"></i>
+             </div>
+             $<span class="price">80</span>
+             </div>
+             <div class="col-4" data-target="#moda12">
+                <img src="pro2.jpeg">
+                <h4 class="product-name">CSS</h4>
+                <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-0"></i>
+                </div>
+                $<span class="price">20</span>
+                </div>
+                <div class="col-4" data-target="#moda13">
+                    <img src="pro4.jpeg">
+                    <h4 class="product-name">JAVASCRIPT</h4>
+                    <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-0"></i>
+                    </div>
+                    $<span class="price">120</span>
+                    </div>
+                    <div class="col-4" data-target="#moda13">
+                        <img src="pro5.webp">
+                        <h4 class="product-name">ANGULAR</h4>
+                        <div class="rating">
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star-half-0"></i>
+                        </div>
+                        $<span class="price">90</span>
+                        </div>
+                        <div class="col-4" data-target="#moda14">
+                            <img src="pro6.jpeg">
+                            <h4 class="product-name">LPT</h4>
+                            <div class="rating">
+                               <i class="fa fa-star"></i>
+                               <i class="fa fa-star"></i>
+                               <i class="fa fa-star"></i>
+                               <i class="fa fa-star"></i>
+                               <i class="fa fa-star-half-0"></i>
+                            </div>
+                            $<span class="price">110</span>
+                            </div>
+                            <div class="col-4" data-target="#moda12">
+                                <img src="pro7.webp">
+                                <h4 class="product-name">IMPROVING PRO</h4>
+                                <div class="rating">
+                                   <i class="fa fa-star"></i>
+                                   <i class="fa fa-star"></i>
+                                   <i class="fa fa-star"></i>
+                                   <i class="fa fa-star"></i>
+                                   <i class="fa fa-star-half-0"></i>
+                                </div>
+                                $<span class="price">250</span>
+                                </div>
+                                <div class="col-4" data-target="#moda13">
+                                    <img src="pro8.webp">
+                                    <h4 class="product-name">BOOTSTRAP</h4>
+                                    <div class="rating">
+                                       <i class="fa fa-star"></i>
+                                       <i class="fa fa-star"></i>
+                                       <i class="fa fa-star"></i>
+                                       <i class="fa fa-star"></i>
+                                       <i class="fa fa-star-half-0"></i>
+                                    </div>
+                                    $<span class="price">870</span>
+                                    </div>   
+                                    <div class="col-4" data-target="#moda14">
+                                        <img src="pro9.jpeg">
+                                        <h4 class="product-name">JQUREY</h4>
+                                        <div class="rating">
+                                           <i class="fa fa-star"></i>
+                                           <i class="fa fa-star"></i>
+                                           <i class="fa fa-star"></i>
+                                           <i class="fa fa-star"></i>
+                                           <i class="fa fa-star-half-0"></i>
+                                        </div>
+                                        $<span class="price">50</span>
+                                        </div>
+                                        <div class="col-4" data-target="#moda15">
+                                            <img src="pro10.jpeg">
+                                            <h4 class="product-name">KEYGEN</h4>
+                                            <div class="rating">
+                                               <i class="fa fa-star"></i>
+                                               <i class="fa fa-star"></i>
+                                               <i class="fa fa-star"></i>
+                                               <i class="fa fa-star"></i>
+                                               <i class="fa fa-star-half-0"></i>
+                                            </div>
+                                            $<span class="price">110</span>
+                                            </div>
+                                            <div class="col-4" data-target="#moda16">
+                                                <img src="pro11.webp">
+                                                <h4 class="product-name">LEARNING</h4>
+                                                <div class="rating">
+                                                   <i class="fa fa-star"></i>
+                                                   <i class="fa fa-star"></i>
+                                                   <i class="fa fa-star"></i>
+                                                   <i class="fa fa-star"></i>
+                                                   <i class="fa fa-star-half-0"></i>
+                                                </div>
+                                                $<span class="price">300</span>
+                                                </div>
+                                                <div class="col-4" data-target="#moda17">
+                                                    <img src="pro12.jpeg">
+                                                    <h4 class="product-name">TECHINICAL</h4>
+                                                    <div class="rating">
+                                                       <i class="fa fa-star"></i>
+                                                       <i class="fa fa-star"></i>
+                                                       <i class="fa fa-star"></i>
+                                                       <i class="fa fa-star"></i>
+                                                       <i class="fa fa-star-half-0"></i>
+                                                    </div>
+                                                    $<span class="price">350</span>
+                                                    </div>
+                                                    <div class="col-4" data-target="#moda15">
+                                                        <img src="pro13.jpeg">
+                                                        <h4 class="product-name">BOOK</h4>
+                                                        <div class="rating">
+                                                           <i class="fa fa-star"></i>
+                                                           <i class="fa fa-star"></i>
+                                                           <i class="fa fa-star"></i>
+                                                           <i class="fa fa-star"></i>
+                                                           <i class="fa fa-star-half-0"></i>
+                                                        </div>
+                                                        $<span class="price">910</span>
+                                                        </div>
+                       <div class="page-btn">
+                        <span>1</span>
+                        <span>2</span>
+                        <span>3</span>
+                        <span>&#10137;</span>
+                       </div>                                 
+             </div>
+            </div>
+           
+
+         <!-- START FOOTER -->
+    <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col-1">
+            <a href="home.html" class="logo-white">BOOK PARADISE </a>
+            </div>
+            <div class="row">
+         <div class="footer-col-2">
+        <a href="home.html" class="logo-white">BOOK PARADISE </a>
+        <p>YOUR ONE STOP FOR ALL YOUR BOOK NEEDS</p>
+         </div>
+          
+         <div class="footer-col-4">
+            <h3>FOLLOW US</h3>
+            <ul>
+                <li>FACEBOOK</li>
+                <li>YOUTUBE</li>
+                <li>TWITER</li>
+                <li>INSTAGRAM</li>
+            </ul>
+         </div>
+          </div> 
+          <hr>
+          <p class="copyright">COPYRIGHT 2021-BOOK PARADISE</p> 
+        </div>
+</body>
+</html>
